@@ -3,11 +3,7 @@
  */
 
 reverseString("Hello")
-function reverseString() {
-
-    var x = "Hello";
-    var y = x.split("");
-    var z = y.reverse();
-    var xyz = z.join("");
+function reverseString(str) {
+    var str= x.split("").reverse().join('');
     console.log('Reverse of '+ x +' is '+xyz);
 }
